@@ -12,10 +12,8 @@ public class VenderLibro {
         vendedor1 = new Vendedor("Manolo", 3435);
         vendedor2 = new Vendedor("Alicia", 3437);
 
-        do {
             MostrarMenus.mostrarMenuPrincipal();
             elegirOpcionPrincipal();
-        }while(LeerJava.getInt() != 0);
     }
 
         public static void elegirOpcionPrincipal() {
@@ -39,14 +37,18 @@ public class VenderLibro {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("Libro comprado: " + libro1.getTitulo());
+                    System.out.println("Has comprado: " + libro1.getTitulo());
                     System.out.println("Te lo vendió " + vendedor1.getNombre() + " con número de empleado " + vendedor1.getNumEmp() + ".");
                     break;
                 case 2:
-                    System.out.println("Libro comprado: " + libro2.getTitulo());
+                    System.out.println("Has comprado: " + libro2.getTitulo());
                     System.out.println("Te lo vendió " + vendedor2.getNombre() + " con número de empleado " + vendedor2.getNumEmp() + ".");
                     break;
-
+                case 0:
+                    System.out.println("Vuelve pronto!");
+                    System.exit(1);
+                default:
+                    System.out.println("Opción incorrecta.");
             }
         }
 
@@ -55,12 +57,16 @@ public class VenderLibro {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("La asistenta: " + libro1.toString());
+                    System.out.println(libro1.toString());
                     break;
                 case 2:
-                    System.out.println("Tengo un volcán: " + libro2.toString());
+                    System.out.println(libro2.toString());
                     break;
-
+                case 0:
+                    System.out.println("Vuelve pronto!");
+                    System.exit(1);
+                default:
+                    System.out.println("Opción incorrecta.");
             }
         }
 }
