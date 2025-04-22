@@ -3,7 +3,7 @@ package Library;
 import java.util.Scanner;
 
 public class LeerJava {
-    private static Scanner sc = new Scanner(System.in);
+    final private static Scanner sc = new Scanner(System.in);
 
     public LeerJava() {
     }
