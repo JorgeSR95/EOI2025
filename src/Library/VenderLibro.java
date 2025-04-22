@@ -42,9 +42,11 @@ public class VenderLibro {
             switch (opcion) {
                 case 1:
                     System.out.println("Libro comprado: " + libro1.getTitulo());
+                    System.out.println("Te lo vendió " + vendedor1.getNombre() + " con número de empleado " + vendedor1.getNumEmp() + ".");
                     break;
                 case 2:
                     System.out.println("Libro comprado: " + libro2.getTitulo());
+                    System.out.println("Te lo vendió " + vendedor2.getNombre() + " con número de empleado " + vendedor2.getNumEmp() + ".");
                     break;
 
             }
