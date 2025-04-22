@@ -13,7 +13,7 @@ public class VenderLibro {
 
         libro1 = new Libro("9788491294283", "La asistenta", "Freida McFadden", 344);
         libro2 = new Libro("9788494820694", "Tengo un volcán", "Miriam Tirado", 28);
-        vendedor1 = new Vendedor("Manolo", 0003436);
+        vendedor1 = new Vendedor("Manolo", 0003435);
         vendedor2 = new Vendedor("Alicia", 0003437);
 
         MostrarMenus.mostrarMenuPrincipal();
