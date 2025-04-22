@@ -16,8 +16,10 @@ public class VenderLibro {
         vendedor1 = new Vendedor("Manolo", 0003435);
         vendedor2 = new Vendedor("Alicia", 0003437);
 
-        MostrarMenus.mostrarMenuPrincipal();
-        elegirOpcionPrincipal();
+        do {
+            MostrarMenus.mostrarMenuPrincipal();
+            elegirOpcionPrincipal();
+        }while(LeerJava.getInt() != 0);
     }
 
         public static void elegirOpcionPrincipal() {
