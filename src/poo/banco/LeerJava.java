@@ -1,4 +1,4 @@
-package Library;
+package poo.banco;
 
 import java.util.Scanner;
 
@@ -8,11 +8,15 @@ public class LeerJava {
     public LeerJava() {
     }
 
-    public static String getString() {
-        return sc.nextLine();
+    public static double getDouble() {
+        return sc.nextDouble();
     }
 
     public static int getInt() {
         return sc.nextInt();
+    }
+
+    public static String getString() {
+        return sc.nextLine();
     }
 }

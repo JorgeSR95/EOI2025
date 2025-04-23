@@ -1,4 +1,4 @@
-package Library;
+package poo.Library;
 
 public class VenderLibro {
     private static Libro libro1;
@@ -17,7 +17,7 @@ public class VenderLibro {
     }
 
         public static void elegirOpcionPrincipal() {
-            int opcion = LeerJava.getInt();
+            int opcion = Integer.parseInt(LeerJava.getString());
 
             switch (opcion) {
                 case 1:
@@ -33,7 +33,7 @@ public class VenderLibro {
         }
 
         public static void elegirOpcionComprar() {
-            int opcion = LeerJava.getInt();
+            int opcion = Integer.parseInt(LeerJava.getString());
 
             switch (opcion) {
                 case 1:
@@ -53,7 +53,7 @@ public class VenderLibro {
         }
 
         public static void elegirOpcionInformacion() {
-            int opcion = LeerJava.getInt();
+            int opcion = Integer.parseInt(LeerJava.getString());
 
             switch (opcion) {
                 case 1:

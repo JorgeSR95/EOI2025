@@ -1,0 +1,14 @@
+package poo.Library;
+
+import java.util.Scanner;
+
+public class LeerJava {
+    final private static Scanner sc = new Scanner(System.in);
+
+    public LeerJava() {
+    }
+
+    public static String getString() {
+        return sc.nextLine();
+    }
+}

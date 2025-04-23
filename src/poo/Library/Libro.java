@@ -1,4 +1,4 @@
-package Library;
+package poo.Library;
 
 public class Libro {
     private String ISBN;
@@ -50,3 +50,4 @@ public class Libro {
         this.numPag = numPag;
     }
 }
+

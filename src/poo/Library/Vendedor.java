@@ -1,4 +1,4 @@
-package Library;
+package poo.Library;
 
 public class Vendedor {
     private String nombre;

@@ -1,4 +1,4 @@
-package Videoclub;
+package poo.Videoclub;
 
 public class Pelicula {
     // ** ATRIBUTOS **

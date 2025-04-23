@@ -1,4 +1,4 @@
-package Library;
+package poo.Library;
 
 public class MostrarMenus {
     public static void mostrarMenuPrincipal() {
