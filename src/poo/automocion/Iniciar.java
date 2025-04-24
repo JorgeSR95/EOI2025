@@ -6,9 +6,11 @@ public class Iniciar {
         Automovil coche = new Coche("Ford", "Focus", 2010);
         Automovil moto = new Moto("Kawasaki", "Cargo", 2021);
 
+        mostrarDatos(coche, moto);
     }
 
-    public static void mostrarDatos(Automovil automovil) {
-        System.out.println();
+    public static void mostrarDatos(Automovil coche, Automovil moto) {
+        System.out.println("\n" + coche.toString() + "\n");
+        System.out.println(moto.toString());
     }
 }

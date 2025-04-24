@@ -2,7 +2,7 @@ package poo.automocion;
 
 public class Coche extends Automovil {
 
-    private int numPuertas;
+    private int numPuertas = 5;
 
     public Coche(String brand, String model, int year) {
         super(brand, model, year);
@@ -21,6 +21,8 @@ public class Coche extends Automovil {
     public String toString() {
         return "=== Coche === " + "\n" +
                 "Número de puertas: " + numPuertas + "\n" +
-                super.toString();
+                super.getBrand() + "\n" +
+                super.getModel() + "\n" +
+                super.getYear();
     }
 }

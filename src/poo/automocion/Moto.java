@@ -2,7 +2,7 @@ package poo.automocion;
 
 public class Moto extends Automovil {
 
-    private int cilindrada;
+    private int cilindrada = 249;
 
     public Moto(String brand, String model, int year) {
         super(brand, model, year);
@@ -21,6 +21,8 @@ public class Moto extends Automovil {
     public String toString() {
         return "=== Moto === " + "\n" +
                 "Cilindrada: " + cilindrada + "\n" +
-                super.toString();
+                super.getBrand() + "\n" +
+                super.getModel() + "\n" +
+                super.getYear();
     }
 }
